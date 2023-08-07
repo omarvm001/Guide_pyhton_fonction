@@ -19,8 +19,6 @@ def age_nom(nom="",age=0):
         else :
             print("La personn est MINEUR !")
 
-
-
 def age_mineur(age):
     if age >=18:
         return True

@@ -8,6 +8,10 @@ def affcer_nom (num_personne):
     print("Le nom de la personne  " + str(num_personne) + " comporte : "  + str(len(nom1))+ " caractères.")
 
 affcer_nom(1)
+print("")
+affcer_nom(2)
+print("")
+affcer_nom(3)
 #affcer_nom("2")
 
 '''nom1 = input ("quel est votre nom ? : ")

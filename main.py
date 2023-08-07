@@ -1,16 +1,26 @@
-# This is a sample Python script.
-
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+'''nom1="Guerriche"
+crédit1 = 150
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+nom1="Bouchenak"
+crédit1 = 100
+
+
+nom1="Bennai"
+crédit1 = 80
+print(" le nom du client est 1 : ", nom1)
+print (" le crédit restant du client 1 est : ", crédit1)
+'''
+
+def gestion_client(nom,crédit):
+    print(" le nom du client est            : ", nom)
+    print(" le crédit restant du client est : ", crédit)
+
+gestion_client(nom ="Guerriche", crédit= 150)
+gestion_client("Bouchenak", 100)
+gestion_client("Bennai", 50)
+
 
 
