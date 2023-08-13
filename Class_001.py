@@ -7,6 +7,7 @@ class Personne:
     def se_presenter(self):
         print("je m'appelle toto")
         print("++++++++++++")
+        print("++++++++++++")
 
 
 # le constructeur crée en mémoire un OBJET DANS LE SELF
