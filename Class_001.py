@@ -1,11 +1,12 @@
 
-
+# exemple1 class
 class Personne:
     def __init__(self, nom):
         print("Je m'appelle " + nom)
 
     def se_presenter(self):
         print("je m'appelle toto")
+        print("++++++++++++")
 
 
 # le constructeur crée en mémoire un OBJET DANS LE SELF
