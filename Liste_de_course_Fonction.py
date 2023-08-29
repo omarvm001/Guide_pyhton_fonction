@@ -1,18 +1,29 @@
 import numpy as np
 import sys
 print("Bienvenue !")
-print("Ce programme vous permet de jouer à un jeu question/réponse QCM .")
+print("Ce programme vous permet de jouer à un jeu de création de LISTES .")
 print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-def menu():
-    print("Choisissez parmis les 5 options suivantes : 1/ADD 2/DEL 3/SHOW 4/CLEAR 5/EXIT")
-    ma_liste = []
-    rep_user = input("Votre réponse parmis les 5 propositions est : ")
-    print("Vous avez choisit la réponse : " + rep_user)
-    #menu()
-    return rep_user
 
-#rep_user = menu()
-#print(">>>>>", rep_user)
+choix = ""
+ma_list = []
+
+
+while choix !=5:
+    choix = input(
+        "Choisissez parmis les 5 options suivantes : "
+        "1/ADD "
+        "2/DEL "
+        "3/SHOW "
+        "4/CLEAR "
+        "5/EXIT : ")
+    if not (1 <= int(choix) <= 5 and choix.isdigit()):
+        print("============================================")
+        print("Veuillez choisir un nombre entre 1 et 5 ! ")
+        print("============================================")
+
+
+
+
 
 def my_Liste():
     rep_user = menu()
